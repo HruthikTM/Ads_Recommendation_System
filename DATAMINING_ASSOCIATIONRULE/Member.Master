@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Member.master.cs" Inherits="DATAMINING_ASSOCIATIONRULE.Member" %>
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+      <!-- Basic -->
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <!-- Mobile Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <!-- Site Metas -->
+      <meta name="keywords" content="" />
+      <meta name="description" content="" />
+      <meta name="author" content="" />
+      <link rel="shortcut icon" href="images/favicon.png" type="">
+      <title>E Commerce</title>
+      <!-- bootstrap core css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+      <!-- font awesome style -->
+      <link href="css/font-awesome.min.css" rel="stylesheet" />
+      <!-- Custom styles for this template -->
+      <link href="css/style.css" rel="stylesheet" />
+      <!-- responsive style -->
+      <link href="css/responsive.css" rel="stylesheet" />
+
+         <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+   </head>
+ 
+
+<body>
+     <div class="hero_area">
+         <!-- header section strats -->
+         <header class="header_section">
+            <div class="container">
+               <nav class="navbar navbar-expand-lg custom_nav-container ">
+                  <a class="navbar-brand" href="Homepage.aspx"><h4>COMMERCIAL ENDORSEMENT RECOMMENDATION</h4></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class=""> </span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     <ul class="navbar-nav">
+                                              
+
+
+                        <li class="nav-item active"><a class="nav-link"  href="Member_Homepage.aspx" runat="server">Home</a></li>
+               <li class="nav-item active"><a class="nav-link"  href="_EclatAlgorithm.aspx" runat="server">Eclat</a></li>
+         <li class="nav-item active"><a class="nav-link"  href="_Compare.aspx" runat="server">Compare</a></li>
+          <li class="nav-item active"><a class="nav-link" href="BrowseItems.aspx" runat="server">Browse</a></li>
+         <li class="nav-item active"><a class="nav-link"  href="MemberCart.aspx" runat="server" id="A3"><img src= "images/cart.gif" /></a></li>
+       
+        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Orders <span class="caret"></span></a>
+                           <ul class="dropdown-menu">
+                             <li><a href="MyTransactions.aspx">Orders</a></li>
+                                <li><a href="Member_Tasks.aspx?value=Feedbacks">Feedbacks</a></li>
+                                <li><a href="ItemFeedbacks.aspx">Ratings</a></li>
+                           </ul>
+                        </li>
+
+
+         <li class="nav-item active"><a class="nav-link"  href="Member_Tasks.aspx?value=Changepassword" runat="server">Account</a></li>
+        <li class="nav-item active"><a class="nav-link"  href="Signout.aspx?value=customer" runat="server">Signout</a></li>
+
+                      
+                       
+                     </ul>
+                  </div>
+               </nav>
+            </div>
+         </header>
+         <!-- end header section -->
+         <!-- slider section -->
+         
+         <!-- end slider section -->
+    
+
+       <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        <div class="clr"></div>
+    </div>
+    </form>
+
+      </div>
+    
+    <!-- footer start -->
+    
+      <!-- footer end -->
+      <div class="cpy_">
+         <p class="mx-auto">© All Rights Reserved By <a href="https://html.design/">Ads Recc</a><br>
+         
+            Using <a href="https://themewagon.com/" target="_blank">Machine Learning</a>
+         
+         </p>
+      </div>
+      <!-- jQery -->
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <!-- popper js -->
+      <script src="js/popper.min.js"></script>
+      <!-- bootstrap js -->
+      <script src="js/bootstrap.js"></script>
+      <!-- custom js -->
+      <script src="js/custom.js"></script>
+   </body>
+</html>
